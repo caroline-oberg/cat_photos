@@ -1,0 +1,78 @@
+h1 {
+	text-align: center;
+	font-size: 14px;
+}
+body {
+	background-color: lightblue;
+}
+p {
+	font-size: 14px;
+}
+table {
+	width: 100%;
+}
+th {
+	height: 50px;
+}
+table, td, th {
+	border-width: 1px;
+	border-style: solid;
+}
+th {
+	text-align: left;
+}
+td, th {
+	padding: 15px;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.catinfo {
+	border-color: #FA3E00;
+}
+#catinfopp {
+	font-size: 18px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #E3840B;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: #FBC70D;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
