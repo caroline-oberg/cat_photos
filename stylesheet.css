@@ -3,7 +3,7 @@ h1 {
 	font-size: 14px;
 }
 body {
-	background-color: lightblue;
+	background-color: #FBC70D;
 }
 p {
 	font-size: 14px;
@@ -56,7 +56,7 @@ nav li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+
 nav li a:hover {
   background-color: #FBC70D;
 }
@@ -70,9 +70,9 @@ th, td {
   padding: 8px;
 }
 
-tr:nth-child(even){background-color: #f2f2f2}
+tr:nth-child(even){background-color: #E3840B}
 
 th {
-  background-color: #4CAF50;
+  background-color: #E30B38;
   color: white;
 }
