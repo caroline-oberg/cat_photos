@@ -4,51 +4,75 @@
 <head>
 
 	<title>Cute Cats of The Month</title>
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<style>
-		h1 {
-			border-width: 2px;
-			border-style: solid;
-			border-color: #FA3E00;
-		}
-	</style>
+ <!-- This says our CSS is compatible with phones, and phones
+         don't need to scale it strangely. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Main CSS styles for Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+    <!-- Optional theme add-on -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/sandstone/bootstrap.min.css">
+
 </head>
 <body>
 	<header>
-		<nav>
-			<ul>
-				<li>
-					<a href="index.html">Home</a>
-				</li>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Cute Cat Photos</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-				<li>
-					<a href="about.html">About</a>
-				</li>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-				<li>
-					<a href="shop.html">Shop</a>
-				</li>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
 
-				<li>
-					<a href="info.html">Info</a>
-				</li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="info.html">Info</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="news.html">News</a>
+          </li>
+                    <li class="nav-item">
+            <a class="nav-link" href="shop.html">Shop</a>
+          </li>
+                    <li class="nav-item">
+            <a class="nav-link" href="videos.html">Videos</a>
+          </li>
+        </ul>
 
-				<li>
-					<a href="news.html">News</a>
-				</li>
-
-				<li>
-					<a href="videos.html">Videos</a>
-				</li>
-			</ul>
-		</nav>
+      </div>
+    </nav>
 	</header>
+	<div class="alert alert-primary" role="alert">
+  Check out our other pages for more info!
+	</div>
+	<div class="container">
+	<div class="jumbotron">
+  <h1 class="display-4">Hello, world!</h1>
+  <p class="lead"> Welcome to the best website for viewing the cutest cats. Our website is updated monthly so you can see the best our feline friends have to offer. Feel free to check out our information page, as well as our donation page to help support the cutest cats we can find. Check out our videos page if the pictures aren't enough for you. Thanks for visiting, come back soon! </p>
+  <hr class="my-4">
+  <p>For more information on these cats check out our info page, or contact us with the number below.</p>
+  <p class="lead">
+  </p>
+</div>
+ <a class="btn btn-primary" href="http://google.com" role="button">Link</a>
 	<section>
 		<h1 style="font-size: 20px; color: #E30B38;">Cute Cats of The Month</h1>
 	</section>
-	<p>Welcome to the best website for viewing the cutest cats. Our website is updated monthly so you can see the best our feline friends have to offer. Feel free to check out our information page, as well as our donation page to help support the cutest cats we can find. Check out our videos page if the pictures aren't enough for you. Thanks for visiting, come back soon!</p>
 	<footer>
 		Copyright: &copy; 2020 by The Cute Kitten Orginization
 	</footer>
+	</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>
